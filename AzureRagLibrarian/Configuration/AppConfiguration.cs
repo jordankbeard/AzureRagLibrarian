@@ -28,6 +28,6 @@ public static class AppConfiguration
             builder.AddUserSecrets(typeof(AppConfiguration).Assembly, optional: true);
         }
 
-        return builder;
+        return builder.AddEnvironmentVariables();
     }
 }
