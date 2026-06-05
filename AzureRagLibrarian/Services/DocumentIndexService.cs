@@ -1,11 +1,12 @@
 using Azure.AI.Projects;
 using AzureRagLibrarian.Configuration;
+using Microsoft.Extensions.Logging;
 using OpenAI.Files;
 using OpenAI.VectorStores;
 
 namespace AzureRagLibrarian.Services;
 
-public sealed class DocumentIndexService(AIProjectClient projectClient)
+public sealed class DocumentIndexService(AIProjectClient projectClient, ILogger<DocumentIndexService> logger)
 {
     public async Task<VectorStore> EnsureVectorStoreAsync(RagOptions options)
     {
@@ -21,9 +22,9 @@ public sealed class DocumentIndexService(AIProjectClient projectClient)
             ?? await CreateVectorStoreAsync(vectorClient, options.VectorStoreName, uploadedFile.Id);
     }
 
-    private static async Task<OpenAIFile?> FindUploadedFileAsync(OpenAIFileClient fileClient, string targetFileName)
+    private async Task<OpenAIFile?> FindUploadedFileAsync(OpenAIFileClient fileClient, string targetFileName)
     {
-        Console.WriteLine("Checking for existing file in Azure AI Foundry storage...");
+        logger.LogInformation("Checking for existing file in Azure AI Foundry storage...");
 
         var filesResult = await fileClient.GetFilesAsync();
 
@@ -31,7 +32,7 @@ public sealed class DocumentIndexService(AIProjectClient projectClient)
         {
             if (file.Filename == targetFileName && file.Purpose == FilePurpose.Assistants)
             {
-                Console.WriteLine($"--> Reusing file: {file.Id}");
+                logger.LogInformation("Reusing file: {FileId}", file.Id);
                 return file;
             }
         }
@@ -39,26 +40,26 @@ public sealed class DocumentIndexService(AIProjectClient projectClient)
         return null;
     }
 
-    private static async Task<OpenAIFile> UploadFileAsync(OpenAIFileClient fileClient, string documentPath, string targetFileName)
+    private async Task<OpenAIFile> UploadFileAsync(OpenAIFileClient fileClient, string documentPath, string targetFileName)
     {
-        Console.WriteLine("--> Uploading document...");
+        logger.LogInformation("Uploading document...");
 
         await using Stream uploadStream = File.OpenRead(documentPath);
         OpenAIFile uploadedFile = await fileClient.UploadFileAsync(uploadStream, targetFileName, FileUploadPurpose.Assistants);
 
-        Console.WriteLine($"--> Upload complete: {uploadedFile.Id}");
+        logger.LogInformation("Upload complete: {FileId}", uploadedFile.Id);
         return uploadedFile;
     }
 
-    private static async Task<VectorStore?> FindVectorStoreAsync(VectorStoreClient vectorClient, string vectorStoreName)
+    private async Task<VectorStore?> FindVectorStoreAsync(VectorStoreClient vectorClient, string vectorStoreName)
     {
-        Console.WriteLine("Checking for existing vector store...");
+        logger.LogInformation("Checking for existing vector store...");
 
         await foreach (VectorStore store in vectorClient.GetVectorStoresAsync())
         {
             if (store.Name == vectorStoreName)
             {
-                Console.WriteLine($"--> Reusing vector store: {store.Id}");
+                logger.LogInformation("Reusing vector store: {StoreId}", store.Id);
                 return store;
             }
         }
@@ -66,12 +67,12 @@ public sealed class DocumentIndexService(AIProjectClient projectClient)
         return null;
     }
 
-    private static async Task<VectorStore> CreateVectorStoreAsync(
+    private async Task<VectorStore> CreateVectorStoreAsync(
         VectorStoreClient vectorClient,
         string vectorStoreName,
         string fileId)
     {
-        Console.WriteLine("--> Creating vector store and indexing document...");
+        logger.LogInformation("Creating vector store and indexing document...");
 
         var vectorStoreResult = await vectorClient.CreateVectorStoreAsync(new VectorStoreCreationOptions
         {
@@ -79,7 +80,7 @@ public sealed class DocumentIndexService(AIProjectClient projectClient)
             FileIds = { fileId }
         });
 
-        Console.WriteLine($"--> Vector store ready: {vectorStoreResult.Value.Id}");
+        logger.LogInformation("Vector store ready: {StoreId}", vectorStoreResult.Value.Id);
         return vectorStoreResult.Value;
     }
 }

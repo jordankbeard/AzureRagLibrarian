@@ -1,9 +1,12 @@
 using Azure.AI.Projects;
+using Microsoft.Extensions.Logging;
 using OpenAI.Responses;
+using System.ClientModel.Primitives;
+using System.Text.Json;
 
 namespace AzureRagLibrarian.Services;
 
-public sealed class RagChatSession(AIProjectClient projectClient, string agentName)
+public sealed class RagChatSession(AIProjectClient projectClient, string agentName, ILogger<RagChatSession> logger)
 {
     public async Task RunAsync()
     {
@@ -27,7 +30,7 @@ public sealed class RagChatSession(AIProjectClient projectClient, string agentNa
                 break;
             }
 
-            Console.WriteLine("Agent is thinking...");
+            logger.LogInformation("Sending message to agent...");
 
             try
             {

@@ -1,6 +1,8 @@
 using AzureRagLibrarian.Configuration;
 using AzureRagLibrarian.Services;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
 
 IConfiguration configuration = AppConfiguration.Build(args);
 RagOptionsResult optionsResult = RagOptions.Load(configuration);
@@ -25,30 +27,45 @@ if (!optionsResult.IsValid)
 
 RagOptions options = optionsResult.Options;
 
-Console.WriteLine("Azure RAG Librarian");
-Console.WriteLine($"Document: {options.DocumentPath}");
-Console.WriteLine($"Agent: {options.AgentName}");
-Console.WriteLine();
+ServiceCollection services = new();
+
+services.AddLogging(b => b.AddConsole());
+services.AddSingleton<AzureProjectClientFactory>();
+services.AddSingleton(sp =>
+{
+    var factory = sp.GetRequiredService<AzureProjectClientFactory>();
+    return factory.Create(options);
+});
+services.AddSingleton<DocumentIndexService>();
+services.AddSingleton<AgentProvisioningService>();
+services.AddSingleton(sp => new RagChatSession(
+    sp.GetRequiredService<Azure.AI.Projects.AIProjectClient>(),
+    options.AgentName,
+    sp.GetRequiredService<ILogger<RagChatSession>>()));
+
+await using ServiceProvider provider = services.BuildServiceProvider();
+
+var logger = provider.GetRequiredService<ILogger<Program>>();
+
+logger.LogInformation("Azure RAG Librarian starting");
+logger.LogInformation("Document: {DocumentPath}", options.DocumentPath);
+logger.LogInformation("Agent: {AgentName}", options.AgentName);
 
 try
 {
-    AzureProjectClientFactory clientFactory = new();
-    var projectClient = clientFactory.Create(options);
-
-    DocumentIndexService documentIndexService = new(projectClient);
+    var documentIndexService = provider.GetRequiredService<DocumentIndexService>();
     var vectorStore = await documentIndexService.EnsureVectorStoreAsync(options);
 
-    AgentProvisioningService agentProvisioningService = new(projectClient);
+    var agentProvisioningService = provider.GetRequiredService<AgentProvisioningService>();
     await agentProvisioningService.EnsureAgentAsync(options, vectorStore.Id);
 
-    RagChatSession chatSession = new(projectClient, options.AgentName);
+    var chatSession = provider.GetRequiredService<RagChatSession>();
     await chatSession.RunAsync();
 
     return 0;
 }
 catch (Exception ex)
 {
-    Console.WriteLine();
-    Console.WriteLine($"[Error] {ex.Message}");
+    logger.LogError(ex, "Unhandled error");
     return 1;
 }

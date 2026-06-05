@@ -21,9 +21,58 @@ flowchart LR
     Chat --> Responses[Project responses API]
 ```
 
+## How it works
+
+When the app starts it uploads your document to Azure AI Foundry file storage (reusing the existing file on subsequent runs), creates a vector store over it, and registers a project agent with the file-search tool attached. During each conversation turn the agent retrieves the most relevant chunks from the vector store, grounds its answer in those passages, and returns the text along with file-citation annotations that identify which parts of the document were used. The app prints those citations beneath each answer so the retrieval step is visible rather than hidden.
+
+```
+User prompt → Project Responses API → file-search tool → vector store
+                                    ↓
+                           grounded answer + citation annotations
+                                    ↓
+                           console output with [source: quiet-hours.txt]
+```
+
+## Example session
+
+```
+You: When do Quiet Hours begin?
+
+Agent > Quiet Hours begin at 8:30 p.m. every weekday. As Section 3 of the guide states:
+"The clocktower is the public signal. At 8:30 p.m., the evening pendulum engages, the
+chime mechanism slows, the public bells are silenced, and the tower lanterns change from
+white to amber."
+  [source: quiet-hours.txt]
+
+You: Who inspects the clocktower pendulums, and how often?
+
+Agent > Lysa Calder, the tower keeper, inspects the pendulums every Friday. Section 5
+describes her inspection log in detail, covering gear wear, lantern status, counterweight
+alignment, oil condition, and the exact time the evening pendulum engages. If the
+mechanism drifts by more than two minutes she files a maintenance note with the council.
+  [source: quiet-hours.txt]
+
+You: What changed after the Merchant Guild accepted Quiet Hours?
+
+Agent > After three months, the guild reported lower spoilage, fewer accounting errors,
+and higher customer satisfaction during daytime trading (Section 7). Stallholders ordered
+more accurately, customers learned to shop before the evening boundary, and workers closed
+with clearer heads. The guild now trains new stallholders on Quiet Hours as part of market
+licensing.
+  [source: quiet-hours.txt]
+
+You: What is the penalty for ignoring Quiet Hours?
+
+Agent > The document does not specify fixed penalties. Section 19 explains that wardens
+first ask the responsible person to stop; repeated violations may be referred to the
+council and can lead to license review or fines under the council code, but the programme
+favours correction over punishment.
+  [source: quiet-hours.txt]
+```
+
 ## Prerequisites
 
-- .NET 9 SDK
+- .NET 10 SDK
 - An Azure AI Foundry project
 - A deployed chat model, such as `gpt-4o-mini`
 - Azure CLI login or another credential supported by `DefaultAzureCredential`
