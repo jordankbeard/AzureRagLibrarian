@@ -2,54 +2,40 @@ using AzureRagLibrarian.Configuration;
 using AzureRagLibrarian.Services;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Options;
 
 IConfiguration configuration = AppConfiguration.Build(args);
-RagOptionsResult optionsResult = RagOptions.Load(configuration);
-
-if (!optionsResult.IsValid)
-{
-    Console.WriteLine("Azure RAG Librarian is not configured yet.");
-    Console.WriteLine();
-    Console.WriteLine("Please fix the following configuration issue(s):");
-
-    foreach (string error in optionsResult.Errors)
-    {
-        Console.WriteLine($"- {error}");
-    }
-
-    Console.WriteLine();
-    Console.WriteLine("Copy appsettings.example.json to appsettings.json or use user secrets/environment variables.");
-    Console.WriteLine("Required key: AzureAI:ProjectEndpoint");
-
-    return 1;
-}
-
-RagOptions options = optionsResult.Options;
 
 ServiceCollection services = new();
 
-services.AddLogging(b => b.AddConsole());
+services
+    .AddOptions<RagOptions>()
+    .Bind(configuration.GetSection("Rag"))
+    .ValidateOnStart()
+    .Services
+    .AddSingleton<IValidateOptions<RagOptions>, RagOptionsValidator>();
+
 services.AddSingleton<AzureProjectClientFactory>();
-services.AddSingleton(sp =>
-{
-    var factory = sp.GetRequiredService<AzureProjectClientFactory>();
-    return factory.Create(options);
-});
+services.AddSingleton(sp => sp.GetRequiredService<AzureProjectClientFactory>().Create());
 services.AddSingleton<DocumentIndexService>();
 services.AddSingleton<AgentProvisioningService>();
-services.AddSingleton(sp => new RagChatSession(
-    sp.GetRequiredService<Azure.AI.Projects.AIProjectClient>(),
-    options.AgentName,
-    sp.GetRequiredService<ILogger<RagChatSession>>()));
+services.AddSingleton<RagChatSession>();
+
+services.PostConfigure<RagOptions>(opts =>
+{
+    opts.ProjectEndpoint = configuration.GetValue<Uri>("AzureAI:ProjectEndpoint");
+    opts.TenantId = configuration["AzureAI:TenantId"];
+    opts.ModelDeploymentName =
+        configuration["AzureAI:ModelDeploymentName"] ?? RagOptions.DefaultModelDeploymentName;
+});
 
 await using ServiceProvider provider = services.BuildServiceProvider();
 
-var logger = provider.GetRequiredService<ILogger<Program>>();
+var options = provider.GetRequiredService<IOptions<RagOptions>>().Value;
 
-logger.LogInformation("Azure RAG Librarian starting");
-logger.LogInformation("Document: {DocumentPath}", options.DocumentPath);
-logger.LogInformation("Agent: {AgentName}", options.AgentName);
+Console.WriteLine("Azure RAG Librarian starting");
+Console.WriteLine($"Document: {options.DocumentPath}");
+Console.WriteLine($"Agent: {options.AgentName}");
 
 try
 {
@@ -66,6 +52,6 @@ try
 }
 catch (Exception ex)
 {
-    logger.LogError(ex, "Unhandled error");
+    Console.WriteLine($"Unhandled error {ex}");
     return 1;
 }

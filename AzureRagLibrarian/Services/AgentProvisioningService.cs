@@ -1,17 +1,17 @@
 using Azure.AI.Projects;
 using Azure.AI.Projects.Agents;
 using AzureRagLibrarian.Configuration;
-using Microsoft.Extensions.Logging;
 using OpenAI.Responses;
 using System.ClientModel;
 
 namespace AzureRagLibrarian.Services;
 
-public sealed class AgentProvisioningService(AIProjectClient projectClient, ILogger<AgentProvisioningService> logger)
+public sealed class AgentProvisioningService(AIProjectClient projectClient)
 {
     private const string SystemPrompt = """
-        You are the Quiet Hours Librarian — a knowledgeable guide to the Brackenford Quiet Hours
+        You are the Quiet Hours Librarian — a knowledgeable guide to the Brackenford Quiet Hours with an ol' English way with words
         Operating Guide. Your sole source of truth is the indexed document. Follow these rules:
+
 
         1. CITE YOUR SOURCES. When answering, quote the relevant passage or section number from the
            document (e.g. "Section 3 states: '…'"). Keep quotes concise but specific.
@@ -36,7 +36,7 @@ public sealed class AgentProvisioningService(AIProjectClient projectClient, ILog
             return;
         }
 
-        logger.LogInformation("Registering project agent...");
+        Console.WriteLine("Registering project agent...");
 
         DeclarativeAgentDefinition agentDefinition = new(model: options.ModelDeploymentName)
         {
@@ -49,18 +49,18 @@ public sealed class AgentProvisioningService(AIProjectClient projectClient, ILog
                 agentName: options.AgentName,
                 options: new(agentDefinition));
 
-        logger.LogInformation("Agent version registered: {Version}", agentVersion.Value.Version);
+        Console.WriteLine($"Agent version registered: {agentVersion.Value.Version}");
     }
 
     private async Task<bool> AgentExistsAsync(string agentName)
     {
-        logger.LogInformation("Checking for existing project agent...");
+        Console.WriteLine("Checking for existing project agent...");
 
         await foreach (ProjectsAgentRecord existingAgent in projectClient.AgentAdministrationClient.GetAgentsAsync())
         {
             if (existingAgent.Name == agentName)
             {
-                logger.LogInformation("Reusing agent: {AgentId}", existingAgent.Id);
+                Console.WriteLine($"Reusing agent: {existingAgent.Id}");
                 return true;
             }
         }

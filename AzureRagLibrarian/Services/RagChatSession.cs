@@ -1,16 +1,15 @@
 using Azure.AI.Projects;
-using Microsoft.Extensions.Logging;
+using AzureRagLibrarian.Configuration;
+using Microsoft.Extensions.Options;
 using OpenAI.Responses;
-using System.ClientModel.Primitives;
-using System.Text.Json;
 
 namespace AzureRagLibrarian.Services;
 
-public sealed class RagChatSession(AIProjectClient projectClient, string agentName, ILogger<RagChatSession> logger)
+public sealed class RagChatSession(AIProjectClient projectClient, IOptions<RagOptions> options)
 {
     public async Task RunAsync()
     {
-        var responseClient = projectClient.ProjectOpenAIClient.GetProjectResponsesClientForAgent(agentName);
+        var responseClient = projectClient.ProjectOpenAIClient.GetProjectResponsesClientForAgent(options.Value.AgentName);
 
         Console.WriteLine();
         Console.WriteLine("=== Conversation Started (type 'exit' or press Enter to quit) ===");
@@ -30,7 +29,7 @@ public sealed class RagChatSession(AIProjectClient projectClient, string agentNa
                 break;
             }
 
-            logger.LogInformation("Sending message to agent...");
+            Console.WriteLine("Sending message to agent...");
 
             try
             {
