@@ -4,23 +4,6 @@ Azure RAG Librarian is a .NET console application that demonstrates a retrieval-
 
 This project is intentionally small enough to read in one sitting, but structured like production code: configuration is validated, Azure setup is isolated from the CLI, generated files are ignored, and core behavior has unit coverage.
 
-## Architecture
-
-```mermaid
-flowchart LR
-    User[Console user] --> CLI[Program.cs]
-    CLI --> Config[RagOptions]
-    CLI --> Client[AzureProjectClientFactory]
-    Client --> Foundry[Azure AI Foundry project]
-    CLI --> Index[DocumentIndexService]
-    Index --> File[Foundry file storage]
-    Index --> Vector[Vector store]
-    CLI --> Agent[AgentProvisioningService]
-    Agent --> Foundry
-    CLI --> Chat[RagChatSession]
-    Chat --> Responses[Project responses API]
-```
-
 ## How it works
 
 When the app starts it uploads your document to Azure AI Foundry file storage (reusing the existing file on subsequent runs), creates a vector store over it, and registers a project agent with the file-search tool attached. During each conversation turn the agent retrieves the most relevant chunks from the vector store, grounds its answer in those passages, and returns the text along with file-citation annotations that identify which parts of the document were used. The app prints those citations beneath each answer so the retrieval step is visible rather than hidden.
