@@ -69,6 +69,14 @@ Try asking:
 - What changed after the Merchant Guild accepted Quiet Hours?
 - Which services continue during Quiet Hours?
 
+For deeper retrieval checks, try:
+
+- When do Quiet Hours begin, and what happens at the clocktower when they start?
+- Who is Lysa Calder, and what does she inspect every Friday?
+- How can residents request an exception for a festival or repair?
+- Why did the Merchant Guild originally object to Quiet Hours, and what did they report after three months?
+- Which services continue operating during Quiet Hours, and why are they exempt?
+
 Type `exit` or press Enter on a blank prompt to end the session.
 
 ## Test

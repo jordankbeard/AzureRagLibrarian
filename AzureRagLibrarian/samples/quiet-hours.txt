@@ -1,23 +1,765 @@
 The Quiet Hours Operating Guide
 
-Brackenford is a small riverside town known for its clocktower, night market, and careful approach to shared rest. The town council created the Quiet Hours programme after a long season of overwork left shopkeepers, teachers, and engineers exhausted.
+Town of Brackenford
+Council Archive Edition
+Prepared for residents, guild officers, public staff, visiting delegations, and new employees assigned to evening operations.
 
-Quiet Hours begin at 8:30 p.m. every weekday. During this time, public bells are silenced, market stalls close, and non-urgent maintenance waits until morning. Emergency services, medical teams, and transport staff continue to operate as normal.
+Document purpose
 
-The clocktower uses two pendulums. The day pendulum keeps the town schedule moving from 6:00 a.m. to 8:30 p.m. The evening pendulum slows the chime mechanism and switches the tower lanterns from white to amber.
+This guide explains the Quiet Hours programme in Brackenford, including its history, schedule, responsibilities, exception process, clocktower operations, public notice rules, emergency allowances, and practical examples. It is written as a public operating guide rather than a legal code. The council code remains the binding source for enforcement, but this guide is the standard reference for day-to-day questions.
 
-Lysa Calder, the tower keeper, is responsible for inspecting the pendulums every Friday. She records gear wear, lantern status, and the exact time the evening pendulum engages. If the mechanism drifts by more than two minutes, she files a maintenance note with the council.
+Quiet Hours are one of Brackenford's oldest civic habits. The idea is simple: the town agrees on a dependable evening boundary so that households can rest, workers can stop, market noise can settle, and essential services can continue without unnecessary disturbance. The programme is not meant to make Brackenford silent. It is meant to make Brackenford predictable, considerate, and sustainable.
 
-Professor Thalen Mire maintains the public archive. His records show that productivity improved after Quiet Hours were restored because people made fewer mistakes, slept more consistently, and planned work with better focus.
+The most important rule is easy to remember: Quiet Hours begin at 8:30 p.m. every weekday. During Quiet Hours, public bells are silenced, market stalls close, loud public work pauses, non-urgent maintenance waits until morning, and the clocktower lanterns change from white to amber. Emergency services, medical teams, and transport staff continue to operate as normal.
 
-The Merchant Guild originally objected to the programme because evening trading hours were reduced. After three months, the guild reported lower spoilage, fewer accounting errors, and higher customer satisfaction during daytime trading.
+Quick reference
 
-Residents can request an exception for festivals, repairs, or visiting delegations. Exceptions must be approved by both the council clerk and the tower keeper. Approved exceptions are posted in the archive window before noon on the day they apply.
-
-Common questions:
-
-- Quiet Hours start at 8:30 p.m. on weekdays.
-- The evening pendulum changes the tower lanterns to amber.
-- Lysa Calder inspects the clocktower pendulums every Friday.
+- Quiet Hours begin at 8:30 p.m. every weekday.
+- The weekday Quiet Hours period normally ends at 6:00 a.m. the next morning.
+- The clocktower day pendulum operates from 6:00 a.m. to 8:30 p.m.
+- The evening pendulum engages at 8:30 p.m. and slows the chime mechanism.
+- The evening pendulum changes the tower lanterns from white to amber.
+- Lysa Calder, the tower keeper, inspects the pendulums every Friday.
 - Professor Thalen Mire maintains the public archive.
-- Emergency and medical services are not paused during Quiet Hours.
+- Emergency services, medical teams, and transport staff are not paused during Quiet Hours.
+- Exceptions require approval from both the council clerk and the tower keeper.
+- Approved exceptions are posted in the archive window before noon on the day they apply.
+
+1. Background
+
+Brackenford is a small riverside town known for its clocktower, night market, canal steps, brass-workers' lane, and old stone bridge. The town sits where the River Bracken bends around the mill quarter before widening into ferry water. Visitors often notice the sound of the place before anything else: carts over cobbles, gulls over the quay, clock bells from the tower, hand tools from the repair yards, and stallholders calling across the evening market.
+
+For many years, that liveliness was considered a sign of health. Long trading hours helped fishmongers clear stock, smiths finish commissions, boatmen handle late arrivals, and innkeepers serve travelers who arrived after sunset. Over time, however, the town learned that constant motion carried a cost. When bells rang late, carts rolled past sleeping rooms, and repair crews worked under lanterns until midnight, mistakes rose. Shopkeepers miscounted tills. Teachers arrived tired. Engineers misread measurements. Dock crews forgot tie-downs. Apprentices burned out before they were fully trained.
+
+The Quiet Hours programme was created after a long season of overwork left shopkeepers, teachers, and engineers exhausted. The council minutes from that period describe the town as "prosperous in coin and poor in attention." That phrase is still quoted by Professor Thalen Mire during orientation for new archive assistants. It captures why the programme matters: rest is not merely private comfort. In Brackenford, rest is treated as a shared civic resource.
+
+The first version of Quiet Hours was informal. Several streets agreed to stop public hammering after dark. The market guild experimented with earlier closing bells. The clocktower keeper dimmed the lanterns as a courtesy signal. Residents posted handwritten notices asking visiting repair crews to keep tools quiet after supper. These measures helped, but they were inconsistent. A person living near the quay had a very different evening from a person living near the school green.
+
+The modern programme standardised the practice across the town. It established a weekday start time, defined the role of the clocktower, set a process for exceptions, clarified emergency allowances, and required public notices. The council chose 8:30 p.m. after reviewing market patterns, school schedules, ferry arrivals, and winter daylight. Earlier times were rejected as too restrictive for working households. Later times were rejected because they did not provide enough reliable rest before the next workday.
+
+2. What Quiet Hours mean
+
+Quiet Hours do not mean that every person must be asleep at 8:30 p.m. They do not mean that conversation is forbidden, that lamps must be extinguished, or that private households cannot gather. Quiet Hours are focused on preventable public disturbance. They apply most directly to civic noise, commercial activity, public bells, outdoor maintenance, deliveries, amplified music, late construction, and organised events.
+
+Residents may talk, cook, read, receive guests, tend children, care for relatives, and walk through town. Inns may house guests. Medical visits may occur. Ferries may dock when needed. Constables may respond to calls. Bakers may begin quiet indoor preparation before dawn. The point is not to freeze town life. The point is to shift evening life into a lower-impact mode.
+
+The council often describes the programme using three principles:
+
+Predictability. Everyone should know when the town begins to settle. Predictability lets families plan sleep, lets businesses plan closing tasks, and lets maintenance crews schedule noisy work before the evening boundary.
+
+Proportionality. A small unavoidable sound is treated differently from a large avoidable disturbance. A single cart returning home is not the same as unloading a wagon train outside a boarding house. A physician knocking on a door is not the same as a guild band rehearsing in the square.
+
+Continuity of essential services. Quiet Hours never suspend emergency care, fire response, medical transport, urgent public safety work, or essential transport. A quiet town still has to remain safe.
+
+3. Standard schedule
+
+Quiet Hours begin at 8:30 p.m. every weekday. In this guide, "weekday" means Monday evening through Friday evening, unless a council notice states otherwise for a recognised holiday or special civic event. The regular Quiet Hours period ends at 6:00 a.m. the following morning, when the day pendulum resumes the ordinary civic schedule and the tower lanterns return to white.
+
+The clocktower is the public signal. At 8:25 p.m., the tower keeper verifies the lantern transition sequence. At 8:28 p.m., the day chime completes its final short warning pattern. At 8:30 p.m., the evening pendulum engages, the chime mechanism slows, the public bells are silenced, and the tower lanterns change from white to amber. The amber lanterns remain visible from the market square, bridge road, quay steps, school green, and most upper windows facing the tower.
+
+The town does not rely only on the clocktower. Market wardens also carry closing cards. The council clerk updates the archive notice board. Guild stewards remind their members. Ferry staff note the transition in the quay ledger. The clocktower is the symbolic signal, but the programme works because many people share the responsibility.
+
+Weekend evenings follow a lighter courtesy model unless otherwise posted. The council does not normally enforce the weekday Quiet Hours rules on Saturday night, because the night market and visiting trade are part of the town's economy. Even then, the council asks residents and businesses to respect sleeping streets after 10:00 p.m. Sunday evening is treated as a preparation evening: no formal 8:30 p.m. closure is required unless posted, but guilds are expected to avoid loud public work after dusk.
+
+4. The clocktower system
+
+Brackenford's clocktower is more than a timepiece. It is the public rhythm of the town. The tower stands beside the archive, close enough that Professor Thalen Mire can hear the regulator room door from his desk on quiet mornings. Its mechanism uses two pendulums: the day pendulum and the evening pendulum.
+
+The day pendulum keeps the town schedule moving from 6:00 a.m. to 8:30 p.m. It governs the ordinary chime intervals, drives the visible clock faces, and keeps the white lantern sequence aligned with civic hours. The day pendulum is heavier, more responsive to ordinary gear correction, and better suited to the frequent chime pattern used during working hours.
+
+The evening pendulum slows the chime mechanism and switches the tower lanterns from white to amber. It is tuned for steadiness rather than frequent signalling. When it engages, the tower does not become inert. The internal escapement continues to track time, and the clock faces continue to move, but the public bells are disengaged from the regular striking pattern. This is why residents sometimes say, "The tower is awake, but it has lowered its voice."
+
+The two-pendulum design was adopted because earlier methods caused drift. In the oldest version of the programme, the keeper simply locked the bell hammer. That preserved silence but caused irregular wear and sometimes left the morning chime late. Later, the town tried a shuttered bell chamber, but the mechanism still struck and the muffled sound carried strangely through fog. The dual pendulum arrangement solved both problems by changing the operating mode cleanly at the evening boundary.
+
+The tower lanterns use white glass during the day and amber glass during Quiet Hours. The amber light is not decorative. It is the official visual notice that the evening operating mode has begun. On foggy evenings, the amber glow is easier to distinguish from shop lamps than a dimmed white light. On winter nights, it can be seen from the far side of the bridge when the bells cannot be heard clearly.
+
+5. Lysa Calder's responsibilities
+
+Lysa Calder is the tower keeper. She is responsible for inspecting the pendulums every Friday. Her inspections include gear wear, lantern status, counterweight alignment, hammer disengagement, oil condition, dial drift, weather sealing, stair safety, and the exact time the evening pendulum engages. If the mechanism drifts by more than two minutes, she files a maintenance note with the council.
+
+The Friday inspection is not optional. It is scheduled because the tower experiences different stresses across the week. Monday and Tuesday reveal problems from weekend temperature changes. Wednesday and Thursday show whether repeated weekday transitions are stable. Friday gives enough time for repair planning before the next full week begins.
+
+Lysa's inspection log uses a standard format:
+
+- Date and weather.
+- Day pendulum start observation.
+- Evening pendulum engagement time.
+- Difference between expected and observed engagement.
+- Lantern transition result.
+- Bell disengagement result.
+- Gear wear rating.
+- Oil and dust notes.
+- Corrective action taken.
+- Whether a council maintenance note is required.
+
+The drift threshold is two minutes. A drift of thirty seconds is recorded but not escalated. A drift between one and two minutes requires careful observation the following week. A drift of more than two minutes requires a maintenance note to the council. If the drift affects the public signal on the same day, Lysa may also post a temporary notice in the archive window and inform the council clerk.
+
+Lysa also has authority over technical exceptions. If an approved festival or repair project requires bell use, lantern changes, or late tower access, she decides whether the tower can safely support the request. The council clerk may approve the civic purpose of an exception, but the tower keeper must approve the mechanical feasibility. This shared approval prevents the council from promising a signal the tower cannot safely provide.
+
+6. Professor Thalen Mire and the archive
+
+Professor Thalen Mire maintains the public archive. The archive contains council minutes, inspection summaries, exception notices, guild reports, resident petitions, ferry logs, school complaints, and seasonal reviews. Thalen is not the enforcement officer for Quiet Hours, but his records are essential to the programme because they preserve public memory.
+
+His records show that productivity improved after Quiet Hours were restored because people made fewer mistakes, slept more consistently, and planned work with better focus. The most cited archive summary compares the season before restoration with the first two seasons after restoration. It notes fewer accounting corrections in the market, fewer tool injuries in the repair yards, fewer late arrivals at school, and fewer missed ferry tie-downs.
+
+Thalen is careful to explain that Quiet Hours did not magically solve every problem. Weather, wages, workload, illness, and trade pressure still mattered. But the records show a clear pattern: when the town protected evening rest, people made better decisions during the day. Brackenford did not become less productive. It became less wasteful.
+
+The archive window is the official posting place for approved exceptions. Approved exceptions must be posted before noon on the day they apply. Posting before noon gives residents time to plan. A notice posted at 7:00 p.m. for an 8:30 p.m. exception is considered improper unless the exception is an emergency, because late notice defeats the purpose of predictability.
+
+The archive keeps three kinds of Quiet Hours records:
+
+Public notices. These are notices intended for residents, traders, and visitors. They include exception approvals, festival adjustments, temporary repair permissions, and clocktower maintenance alerts.
+
+Administrative records. These include forms, signatures, inspection summaries, and correspondence between the clerk, tower keeper, guild officers, and service leads.
+
+Historical analyses. These include seasonal summaries, productivity observations, public comment reviews, and recommendations for future updates.
+
+7. Market operations
+
+The night market is one of Brackenford's best-known institutions, so the Quiet Hours programme had to be designed with trade in mind. Market stalls close when Quiet Hours begin. In practice, stallholders start winding down earlier. Hot food vendors stop taking new orders at 8:15 p.m. Produce sellers begin covering stock at 8:20 p.m. Lantern hooks are lowered by 8:25 p.m. At 8:30 p.m., sales stop, public calling stops, and stall lights are reduced to safe closing levels.
+
+Stallholders may complete quiet closing tasks after 8:30 p.m. They may count cash indoors or behind screens, cover goods, secure storage, sweep without metal scraping, and carry small loads by hand. They may not continue public selling, call for customers, play music to attract trade, roll heavy barrels across cobbles, hammer crate lids, or bring late wagons into crowded sleeping streets.
+
+The Merchant Guild originally objected to the programme because evening trading hours were reduced. Many merchants feared lost revenue, wasted food, and reduced appeal to visitors. The council agreed to review the impact after three months. After three months, the guild reported lower spoilage, fewer accounting errors, and higher customer satisfaction during daytime trading. The reduced evening window pushed sellers to plan stock more carefully, encouraged customers to shop earlier, and reduced rushed end-of-night mistakes.
+
+The guild now trains new stallholders on Quiet Hours as part of market licensing. The training emphasises preparation: price boards should be updated before the evening rush, change drawers should be balanced before 8:00 p.m. when possible, and unsold perishables should be sorted early enough to donate, preserve, or store without frantic noise after closing.
+
+Common market allowances include:
+
+- Quiet hand-carrying of covered goods after 8:30 p.m.
+- Low-voice coordination between stallholders and wardens.
+- Safety lighting for closing work.
+- Waste removal by handcart if wheels are padded and the route avoids sleeping streets.
+- Late collection of medicines or reserved food when arranged before Quiet Hours.
+
+Common market violations include:
+
+- Continuing to sell after 8:30 p.m.
+- Calling across the square to attract customers.
+- Breaking down wooden stalls with hammers after the amber lanterns show.
+- Dragging metal stands across stone.
+- Hosting unapproved music or performance after the evening pendulum engages.
+- Accepting late delivery wagons for non-urgent stock.
+
+8. Maintenance and public works
+
+Non-urgent maintenance waits until morning. This includes paving, sign repair, drain clearing, lamp bracket replacement, shutter work, public carpentry, routine roof patching, fountain cleaning, bridge sanding, and ordinary utility inspections. Public works supervisors are expected to schedule noisy tasks between 7:00 a.m. and 7:30 p.m. when possible, leaving a buffer before Quiet Hours begin.
+
+The distinction between urgent and non-urgent work matters. A cracked decorative sign can wait. A broken water main flooding a cellar cannot. A loose cobble in a quiet lane can be marked and repaired in daylight. A bridge hazard that threatens travelers may require immediate attention. A flickering public lamp can be serviced the next day. A lamp post leaning into the road must be secured.
+
+Maintenance teams use three priority levels:
+
+Routine. Work that can wait until normal working hours without meaningful risk. Routine work must stop before Quiet Hours if it creates public noise.
+
+Time-sensitive. Work that should happen soon but can usually be scheduled with notice. Time-sensitive work may qualify for an exception if delay would cause significant cost, disruption, or safety concerns.
+
+Emergency. Work required to protect life, health, major property, essential transport, or public safety. Emergency work may proceed during Quiet Hours without ordinary exception approval, but it must be logged afterward.
+
+When late work is allowed, crews must use the least disruptive practical method. They should choose hand tools over loud machinery when feasible, shield lamps away from sleeping rooms, keep voices low, avoid unnecessary reversing bells, and place materials on padding rather than dropping them onto stone. Supervisors must remind outside contractors that "approved late work" does not mean "ordinary daytime work at night."
+
+9. Emergency services
+
+Emergency services are not paused during Quiet Hours. Fire crews, constables, medical teams, rescue volunteers, urgent repair crews, and transport staff may act whenever needed. No resident should delay seeking medical care because the amber lanterns are lit. No witness should hesitate to report a fire, injury, missing child, dangerous structure, flood, or crime.
+
+Emergency allowances exist because a quiet town must still be a safe town. Sirens, bells, shouted warnings, and rapid movement may be necessary. The programme does not punish necessary emergency sound. It does, however, expect agencies to avoid unnecessary disturbance once the immediate need has passed.
+
+Examples of permitted emergency activity include:
+
+- Medical transport to or from a home, clinic, ferry, or inn.
+- Fire response and fire prevention work at an active hazard.
+- Constable response to violence, theft, missing persons, or immediate danger.
+- Urgent repairs to water, bridge, road, wall, roof, or power systems.
+- Weather response during flood, ice, lightning damage, or high wind.
+- Transport adjustments needed to move stranded passengers safely.
+
+Emergency teams record late activity in their own logs. They do not need advance exception approval. If an emergency creates extended public disruption, the senior responder sends a brief report to the council clerk the following morning. The report is not used to punish necessary action. It helps the council answer resident questions and improve future planning.
+
+10. Transport staff
+
+Transport staff continue to operate as normal during Quiet Hours when public need requires it. Brackenford's river setting makes this especially important. Ferries, canal boats, late coaches, medical carts, and repair wagons cannot always be controlled by the town clock. Weather and river conditions may delay arrival beyond 8:30 p.m.
+
+The ferry office keeps a Quiet Hours handling plan. Late passengers are guided away from sleeping streets when possible. Cargo unloading is limited to urgent goods, medical supplies, perishables that cannot be safely left aboard, and items needed for morning public service. Non-urgent crates remain secured until morning. Dock crews use low voices, shielded lamps, padded hooks, and quiet routes.
+
+Transport staff are exempt from the pause only for real transport duties. A ferry crew may dock safely after 8:30 p.m. It may not host an unapproved dockside gathering. A coach may deliver passengers. It may not unload ordinary trade goods loudly in the square if the goods can wait. A medical cart may travel immediately. It may not be used as an excuse for late non-medical errands.
+
+11. Schools, clinics, and care homes
+
+Schools use Quiet Hours to protect preparation and sleep. Teachers are encouraged to finish public meetings before 8:00 p.m. Student rehearsals, sports practices, and club events should end early enough for families to travel home before the amber lanterns appear. Examination periods do not automatically qualify for exceptions; the school must plan study sessions within ordinary hours unless there is a specific approved event.
+
+Clinics and care homes remain active. Quiet Hours do not limit medical judgment. A nurse may visit a patient. A physician may be called. A medicine delivery may occur. A family member may travel to provide care. The programme's only expectation is that non-urgent administrative noise, supply deliveries, and public announcements be avoided during the evening period.
+
+Care homes keep special notice boards explaining that visitors may arrive for urgent family reasons during Quiet Hours, but routine social visits should end before 8:30 p.m. Staff are trained to answer resident questions gently. Quiet Hours are meant to reduce distress, not create fear that help is unavailable.
+
+12. Private households
+
+Most Quiet Hours activity depends on public and commercial behaviour, but private households still play a role. Residents are asked to keep avoidable outdoor noise low after 8:30 p.m. This includes late chopping, yard repairs, loud music, shouting from windows, moving furniture through shared passages, and extended gatherings in courtyards.
+
+Normal household life is allowed. Babies cry. Doors open. Kettles whistle. Families talk. People return home from work. Someone may drop a pan or laugh too loudly by accident. Quiet Hours are not a contest to identify every sound. They are a shared expectation that people will avoid turning private convenience into public disturbance.
+
+If a resident expects unusual noise, such as a necessary late move or repair, the courteous practice is to inform immediate neighbours in advance. This does not replace the exception process for public or commercial disturbance, but it often prevents worry. A simple note saying "We must replace a broken lock tonight and will try to finish by 9:15 p.m." can prevent several complaints.
+
+13. Inns and lodging houses
+
+Inns may serve guests during Quiet Hours, but they must manage noise carefully. Common rooms should lower music and public serving at the evening boundary. Guests arriving late may be checked in quietly. Stable work should be limited to animal care and safe storage. Large group arrivals should be guided through side entrances when possible.
+
+Innkeepers are responsible for visitor education. A traveler cannot be expected to know local practice immediately, so lodging houses keep small printed cards explaining the amber tower lanterns and the 8:30 p.m. weekday start. The cards are usually placed near keys, wash basins, and breakfast notices.
+
+Visitors who ignore Quiet Hours after being informed may be treated like any other source of disturbance. Innkeepers should first correct the behaviour. If the disturbance continues, they may contact a warden or constable.
+
+14. Festivals and cultural events
+
+Residents can request an exception for festivals, repairs, or visiting delegations. Festivals are the most common reason. Brackenford values music, lantern processions, harvest suppers, river blessings, school performances, and guild anniversaries. Quiet Hours are not intended to erase culture. They require culture to be planned with respect for the rest of the town.
+
+Festival exception requests should include:
+
+- Name of the event.
+- Date and requested hours.
+- Streets or venues affected.
+- Expected sound sources.
+- Crowd size estimate.
+- Cleanup plan.
+- Safety plan.
+- Contact person.
+- Whether clocktower signalling is requested.
+- Whether the request affects transport or emergency routes.
+
+The council clerk reviews the civic and administrative side. Lysa Calder reviews tower and signalling effects. Both must approve. If approved, the exception is posted in the archive window before noon on the day it applies. Larger festivals should be posted earlier as a courtesy, even though the minimum rule is noon.
+
+Festival exceptions may include conditions. For example, the council may approve music until 9:45 p.m. but require cleanup carts to wait until morning. It may approve a lantern procession but prohibit amplified drums near the clinic. It may allow one ceremonial bell at 9:00 p.m. but keep the regular chime mechanism silenced. The approval should be specific enough that residents know what to expect.
+
+15. Visiting delegations
+
+Visiting delegations sometimes arrive from river towns, guild councils, universities, or provincial offices. These visits may include receptions, speeches, late ferry arrivals, or formal processions. Delegation exceptions exist to support diplomacy and public business, but they are not automatic.
+
+A delegation request must explain why the activity cannot be completed before 8:30 p.m. Convenience alone is not enough. A late arrival caused by ferry tide may justify quiet reception at the quay. A preference for a dramatic nighttime parade usually does not. If the delegation includes persons needing medical support, security, or special transport, those needs are handled under essential service principles rather than ordinary ceremony.
+
+The archive maintains a courtesy packet for delegation leaders. It explains that Brackenford's amber tower lanterns are a sign of civic respect, not hostility to visitors. Many visitors appreciate the tradition once they understand it. Thalen notes that delegations often comment on how well-rested the town feels during morning meetings.
+
+16. Repairs and exceptional work
+
+Repair exceptions are considered when delay would create disproportionate harm. A bakery oven that fails before a public meal, a bridge gate damaged by flood, a school roof opened by wind, or a clinic heating fault in winter may require late work. The applicant should explain the risk of waiting, the expected noise, the tools required, and the steps planned to reduce disturbance.
+
+Approval may be partial. The council might allow emergency stabilisation during Quiet Hours and require finishing work in daylight. It might permit a crew to remove dangerous material but delay hauling debris. It might allow indoor repairs but prohibit outdoor cutting. The guiding question is always: what is the least disruptive work needed tonight?
+
+Contractors must identify themselves if asked by a warden or resident. Approved crews should carry a copy of the exception notice or know where it is posted. A verbal claim that "the council allowed it" is not enough for routine late work. Emergency crews are different; they may act first and log afterward.
+
+17. Exception approval process
+
+Exceptions must be approved by both the council clerk and the tower keeper. This dual approval is one of the most important features of the programme. The clerk confirms that the request is legitimate, documented, and publicly noticed. The tower keeper confirms that any tower, bell, lantern, or timing requirement can be handled safely and accurately.
+
+The ordinary process has six steps:
+
+Step 1: Applicant submits a request. The request should be delivered to the council office no later than two working days before the planned exception whenever possible. Emergency repair requests may be submitted later.
+
+Step 2: Clerk reviews completeness. The clerk checks date, time, location, purpose, affected streets, responsible person, and proposed noise controls.
+
+Step 3: Tower keeper reviews technical impact. Lysa Calder checks whether the request needs bell use, lantern changes, altered chimes, tower access, or special timing.
+
+Step 4: Conditions are added if needed. Conditions may limit hours, routes, instruments, tools, cleanup, crowd size, or signalling.
+
+Step 5: Approval or denial is recorded. Both signatures are required for approval. If either the clerk or tower keeper denies the request, it is not approved.
+
+Step 6: Approved notice is posted. Approved exceptions are posted in the archive window before noon on the day they apply.
+
+An exception is invalid if it is not approved by both required officials, unless the matter is an emergency that may proceed under emergency rules. An exception is also defective if it is not posted properly, though the council may decide how to handle harmless posting errors after the fact.
+
+18. Public notices
+
+Public notice is not a formality. It is how residents keep trust in the programme. People tolerate occasional late noise much better when they know what it is, why it is happening, and when it will end.
+
+A good notice includes:
+
+- Plain event or work name.
+- Date.
+- Start and end time.
+- Affected streets or public areas.
+- Type of sound expected.
+- Responsible contact.
+- Approval signatures or names.
+- Conditions.
+- Whether emergency routes remain clear.
+
+Notices should be written in ordinary language. "Approved variance under Section 4" is less helpful than "Harvest lantern procession approved from 8:30 p.m. to 9:15 p.m. on Bridge Road and Market Square." Residents should not need legal training to understand why the evening will sound different.
+
+The archive window is the official notice location. Additional copies may be posted at the market gate, ferry office, school board, guild hall, clinic entrance, and affected street corners. Those extra copies are helpful but do not replace the archive posting requirement.
+
+19. Complaints and resolution
+
+The council encourages residents to resolve minor issues politely when safe. A neighbour may not realise a shutter repair is carrying across the courtyard. A visiting musician may not know the amber lantern rule. A market apprentice may be following poor instructions. Many disturbances end quickly when someone explains the expectation.
+
+For repeated, commercial, public, or unsafe disturbances, residents may contact a warden or constable. Complaints should include the time, location, type of noise, duration, and whether an exception notice was visible. Complaints should focus on observable facts. "Hammering on Mill Lane from 8:45 p.m. to 9:20 p.m." is more useful than "They were being disrespectful."
+
+Wardens first check whether the activity is allowed, exempt, approved, or emergency-related. If no approval applies, the warden usually asks the responsible person to stop or reduce the disturbance. Repeated violations may be referred to the council. The programme favours correction over punishment, but deliberate disregard can lead to license review, fines under the council code, or denial of future exception requests.
+
+20. Enforcement philosophy
+
+Quiet Hours work best when they are understood as a shared operating agreement rather than a trap. The council does not want wardens measuring every footstep. It wants businesses to plan responsibly, public workers to schedule wisely, visitors to be informed, and residents to trust that the evening boundary means something.
+
+Enforcement is guided by intent, impact, and pattern. A one-time accident is handled differently from repeated late trade. A necessary medical call is handled differently from preventable music. A small sound in a busy square is handled differently from the same sound outside a care home. A person who stops when informed is handled differently from a person who argues that rules are for others.
+
+The council also considers whether the town itself contributed to the problem. If notices were unclear, if a visiting crew was not briefed, or if the clocktower signal failed, the response should include process improvement.
+
+21. Seasonal considerations
+
+Quiet Hours feel different across the year. In summer, daylight lingers and visitors often assume the market remains open later. Wardens place extra closing signs during warm months. Stallholders are reminded that sunlight does not extend weekday trading hours.
+
+In autumn, harvest events create frequent exception requests. The council tries to group public notices clearly so residents are not surprised by processions, carts, or music. Food preservation work also increases, so households are encouraged to complete loud outdoor preparation before evening.
+
+In winter, the amber lanterns become especially important because darkness arrives early. Weather can delay ferries and repair crews. The council allows practical flexibility for snow, ice, and heating failures, but still expects public notice where possible. Quiet Hours are not suspended merely because winter is inconvenient.
+
+In spring, roof work, drainage, and bridge maintenance increase. Public works supervisors are asked to plan noisy repairs carefully because residents are often opening windows again after winter. Spring school events also require earlier coordination.
+
+22. Weather and river conditions
+
+Brackenford's river can complicate the schedule. Fog muffles bells. High water delays ferries. Ice slows carts. Wind can make lanterns harder to see from some streets. The clocktower and archive procedures account for these realities.
+
+If fog is heavy, the tower keeper may increase lantern brightness within the approved amber range. This does not change the Quiet Hours start time. If high water delays a ferry, transport staff may operate under transport allowances. If a storm damages public structures, emergency repair rules apply. If ordinary market traffic is delayed by weather, stallholders still close at 8:30 p.m. unless an exception is approved.
+
+Residents sometimes ask why rain delays do not automatically extend the market. The answer is fairness and predictability. If every inconvenience moved the boundary, the boundary would stop being useful. The council may approve specific exceptions for serious disruptions, but it does not treat ordinary weather as a general extension.
+
+23. Economic effects
+
+The Merchant Guild's early objection remains an important part of the programme's history. Merchants were not wrong to worry. Reduced evening hours can affect revenue if badly managed. The council therefore reviewed the actual results rather than dismissing the concern.
+
+After three months, the guild reported lower spoilage, fewer accounting errors, and higher customer satisfaction during daytime trading. Several reasons were identified. Stallholders ordered more accurately. Customers learned to shop before the evening boundary. Workers closed with clearer heads. Fewer late mistakes meant fewer refunds and disputes. Daytime service improved because staff slept better.
+
+The programme also created secondary benefits. Earlier closing made streets easier to clean. Food donation routes became more predictable. Apprentices had more reliable study time. Families planned errands earlier. Visitors learned that Brackenford's market was busiest before dusk rather than after dark.
+
+The council does not claim Quiet Hours increase profit for every merchant every week. Some businesses still prefer longer evenings, especially during summer. But the town's long-term records show that the programme reduced waste and improved reliability.
+
+24. Health and rest
+
+Quiet Hours are rooted in a practical understanding of human attention. People who sleep consistently tend to make fewer mistakes. They are less likely to misread orders, mishandle tools, quarrel over small problems, or forget important steps. The programme protects a window in which rest becomes easier.
+
+Professor Thalen Mire's archive summaries describe improvements in three areas:
+
+Sleep consistency. Residents reported more regular bedtimes, especially in streets near the market and repair yards.
+
+Work quality. Guild records showed fewer corrections, fewer wasted materials, and fewer accident reports.
+
+Planning discipline. Businesses adapted by preparing earlier, reducing last-minute work, and setting clearer daily priorities.
+
+The council is careful not to make medical claims beyond the evidence. Quiet Hours are not a cure for illness, stress, poverty, or overwork. They are one civic tool that reduces avoidable evening disruption. Their value depends on fair wages, reasonable scheduling, good housing, and responsive services as well.
+
+25. Orientation for new residents
+
+New residents receive a short explanation when they register with the council office or sign a market license. Landlords are encouraged to include the same information in lodging packets. The goal is to make Quiet Hours feel normal rather than mysterious.
+
+New residents should remember five things:
+
+First, Quiet Hours begin at 8:30 p.m. every weekday.
+
+Second, amber clocktower lanterns mean the evening mode is active.
+
+Third, ordinary life continues, but public and avoidable noise should drop.
+
+Fourth, emergency and medical services continue without pause.
+
+Fifth, approved exceptions are posted in the archive window before noon on the day they apply.
+
+Most confusion comes from visitors who see the night market and assume it runs late every evening. Residents can help by explaining the closing rhythm kindly. The town wants compliance, not embarrassment.
+
+26. Training for wardens
+
+Wardens receive additional training because they are often the first officials to speak with residents, merchants, visitors, and repair crews. Their job is not merely to stop noise. It is to interpret the programme accurately in real situations.
+
+Warden training covers:
+
+- Standard weekday schedule.
+- Clocktower signals.
+- Emergency exemptions.
+- Market closing rules.
+- Exception notices.
+- De-escalation.
+- Recordkeeping.
+- Common visitor misunderstandings.
+- When to involve constables.
+- How to protect medical privacy during complaints.
+
+Wardens are reminded to ask before assuming. A late wagon may be carrying urgent clinic supplies. A repair crew may have an approved notice. A group outside an inn may be visitors who need explanation. But wardens are also expected to act firmly when a commercial operator knowingly ignores the rules.
+
+27. Training for guild officers
+
+Guild officers translate Quiet Hours into trade practice. Each guild has different needs. The Merchant Guild manages stalls and customer flow. The Brass-Workers' Society manages tool noise. The Boatmen's Association manages late arrivals. The Bakers' Circle manages early morning preparation. The Innkeepers' Table manages visitors.
+
+Guild officers are expected to:
+
+- Brief members at license renewal.
+- Maintain closing checklists.
+- Coordinate exception requests.
+- Share seasonal reminders.
+- Track repeated problems.
+- Encourage quieter equipment and methods.
+- Support apprentices who are pressured into late work.
+
+The council has found that guild-led correction is often more effective than formal enforcement. A respected guild officer can persuade a member before a pattern becomes a public dispute.
+
+28. The role of the council clerk
+
+The council clerk is the administrative gatekeeper for Quiet Hours exceptions. The clerk receives requests, checks completeness, coordinates with Lysa Calder, prepares notices, records approvals, and keeps the council informed of recurring issues.
+
+The clerk does not approve requests based on popularity alone. A beloved festival still needs clear conditions. A wealthy merchant still needs a legitimate reason. A public works team still needs to explain why delay is harmful. The process protects residents by requiring reasons and records.
+
+The clerk also prepares monthly summaries. These include the number of exception requests, approvals, denials, emergency late work reports, complaints, and clocktower maintenance notes. The summaries help the council see whether the programme is functioning or drifting.
+
+29. Denials and appeals
+
+An exception may be denied for several reasons:
+
+- The request is incomplete.
+- The activity can reasonably occur before 8:30 p.m.
+- The expected disturbance is too broad.
+- The applicant has not provided a mitigation plan.
+- The request conflicts with emergency routes.
+- The tower cannot safely provide requested signalling.
+- The applicant has a pattern of violating prior conditions.
+- Notice cannot be provided in time.
+
+Applicants may revise and resubmit a request. In urgent cases, the council chair may review a denial, but the chair cannot override the tower keeper on mechanical safety. If the tower cannot safely do something, it cannot safely do it.
+
+Appeals should remain practical. The question is not whether the applicant is important. The question is whether the late activity is justified, limited, noticed, and manageable.
+
+30. Records and measurements
+
+The programme relies on records because memory alone is unreliable. A resident may remember every late disturbance and forget weeks of peace. A merchant may remember lost evening sales and forget reduced spoilage. A repair crew may remember being delayed and forget that notice would have solved the problem.
+
+Records include:
+
+- Clocktower inspection logs.
+- Exception requests.
+- Approval notices.
+- Complaint summaries.
+- Emergency reports.
+- Market closing observations.
+- Guild reports.
+- Seasonal reviews.
+- Resident petitions.
+
+The council reviews patterns rather than isolated anecdotes. If complaints rise near one street, wardens investigate. If exception requests cluster around one recurring event, the event plan is revised. If clocktower drift appears more often in damp weather, maintenance changes are considered.
+
+31. Clocktower drift
+
+Clocktower drift means the observed transition differs from the expected transition. The key Quiet Hours measure is the exact time the evening pendulum engages. Lysa Calder records this every Friday. If the mechanism drifts by more than two minutes, she files a maintenance note with the council.
+
+Minor drift can happen because of temperature, humidity, gear wear, dust, oil condition, or vibration from storms. The tower is old enough to deserve patience but important enough to require discipline. A two-minute threshold balances practicality and reliability. Residents do not need the signal to be perfect to the second. They do need it to be trustworthy.
+
+When drift exceeds the threshold, the maintenance note includes the observed time, likely cause, immediate correction, recommended repair, and whether public notices are needed. If the lanterns or bells fail, the clerk may post a notice explaining how Quiet Hours will be signalled until repairs are complete.
+
+32. Lantern failures
+
+If the amber lanterns fail, Quiet Hours still begin at 8:30 p.m. The rule does not depend on perfect lantern operation. However, the tower keeper and clerk must provide substitute notice when practical. This may include archive notices, market warden calls before closing, temporary lamps at the tower base, or written signs at major approaches.
+
+If only one lantern face fails, Lysa records which direction is affected. For example, if the quay-facing amber lens is dark, ferry staff receive direct notice so they can inform late arrivals. If all amber lanterns fail, the council treats repair as time-sensitive because the visual signal is central to public trust.
+
+Residents should not treat a lantern failure as permission to ignore Quiet Hours. The published schedule remains in effect.
+
+33. Bell silence
+
+Public bells are silenced during Quiet Hours. This includes regular clock chimes and ordinary civic bell patterns. The bell chamber may still be used for emergency warnings, approved ceremonial signals, or safety alerts when authorised.
+
+The difference between regular chimes and emergency warnings is important. Regular chimes mark time. Emergency warnings protect people. Quiet Hours silence the first, not the second. A fire bell at 10:00 p.m. is not a violation. It is the town doing what it must do.
+
+Approved ceremonial signals are rare and specific. A festival exception might allow a single bell at a defined time. The notice must say so clearly. Without that notice, residents are entitled to assume the bells will remain silent except for emergencies.
+
+34. Sound examples
+
+The council uses examples to help people make good judgments:
+
+Allowed:
+
+- A doctor knocking on a door at 9:15 p.m.
+- A family walking home from supper.
+- A ferry docking late because of river fog.
+- Quiet counting of stall cash behind closed shutters.
+- A warden speaking with a shopkeeper in a low voice.
+- Emergency roof covering during a storm.
+- A care worker arriving for an urgent visit.
+
+Not allowed without exception:
+
+- A market stall continuing to sell after 8:30 p.m.
+- A musician performing in the square for tips at 9:00 p.m.
+- A repair crew cutting stone in a residential lane at 10:00 p.m.
+- A guild banquet procession with drums and shouted calls.
+- Late unloading of ordinary stock that can wait until morning.
+- Hammering decorative signs after the amber lanterns appear.
+
+May depend on facts:
+
+- A late delivery to the clinic.
+- A private household repair caused by a broken lock.
+- A school event delayed by severe weather.
+- A visitor group arriving after ferry delay.
+- A food vendor cleaning equipment quietly behind screens.
+
+35. Equity and fairness
+
+Quiet Hours must be applied fairly. The programme loses legitimacy if wealthy streets get quiet evenings while working streets absorb noise, or if established guilds receive exceptions that small traders cannot obtain. The council reviews exception patterns for fairness.
+
+Fairness does not mean identical treatment in every case. A clinic has different needs from a toy shop. A bridge repair has different urgency from a decorative awning. A harvest festival has different public value from a private banquet. Fairness means similar reasons are treated similarly, decisions are explained, and conditions are tied to actual impact.
+
+The council also considers people who work late or early. Bakers, ferry staff, nurses, cleaners, and guards may sleep at unusual times. Quiet Hours mainly protect evenings, but the broader culture of consideration should extend to daytime neighbours when possible.
+
+36. Technology and modern equipment
+
+New tools can make work quieter or louder. Battery tools, padded wheels, shielded lamps, softer crate fittings, and low-noise hinges can help businesses comply. Amplifiers, portable speakers, bright lamps, and compact power cutters can create problems if used carelessly.
+
+The council encourages quieter equipment through guild recommendations rather than mandates in most cases. The Merchant Guild keeps a list of approved padded cart wheels. Public works keeps muffling blankets for urgent night repairs. The Innkeepers' Table recommends door closers that do not slam. The Brass-Workers' Society trains apprentices to prepare materials earlier so fewer finishing tasks remain after 8:30 p.m.
+
+The rule remains focused on impact. A new tool is not acceptable merely because it is new. An old tool is not forbidden merely because it is old. What matters is whether the use creates avoidable disturbance during the protected period.
+
+37. Communication scripts
+
+Residents and officials often need simple words. The council suggests these scripts:
+
+For a resident speaking to a neighbour: "Good evening. The amber lanterns are on, and the sound is carrying into the bedrooms. Could you pause the hammering until morning?"
+
+For a warden speaking to a visitor: "Welcome to Brackenford. On weekdays our Quiet Hours begin at 8:30 p.m. The amber tower lights are the signal. Please lower the music now."
+
+For a stallholder speaking to a customer: "I am sorry, sales ended when Quiet Hours began. I can reserve this for you tomorrow morning."
+
+For a clerk explaining denial: "The request was not approved because the work can be done before 8:30 p.m. and the notice period is too short. You may resubmit with an earlier schedule."
+
+For a repair supervisor explaining emergency work: "We are securing a broken water line tonight. The noisy portion should end by 9:20 p.m., and the remaining cleanup will wait until morning."
+
+Clear language reduces resentment. People are more cooperative when they understand what is happening.
+
+38. Review cycle
+
+The council reviews Quiet Hours every year. The review considers complaints, exceptions, guild reports, health observations, school feedback, transport delays, maintenance records, and archive summaries. The review may recommend small updates, but the core 8:30 p.m. weekday start has remained stable because residents value its predictability.
+
+The review meeting is public. Residents may submit written comments. Guilds may submit data. Lysa Calder presents clocktower reliability notes. Professor Thalen Mire presents archive patterns. The council clerk presents administrative statistics. The council then decides whether to adjust guidance, forms, training, or enforcement priorities.
+
+Major changes require broader consultation. The council has repeatedly declined proposals to make Quiet Hours much later in summer, because seasonal changes would create confusion. It has also declined proposals to remove exceptions entirely, because a living town needs flexibility.
+
+39. Frequently asked questions
+
+When do Quiet Hours begin?
+
+Quiet Hours begin at 8:30 p.m. every weekday.
+
+When do Quiet Hours end?
+
+They normally end at 6:00 a.m. the following morning, when the day pendulum resumes the ordinary schedule and the tower lanterns return to white.
+
+What changes at 8:30 p.m.?
+
+The evening pendulum engages, public bells are silenced, market stalls close, loud public work pauses, and the tower lanterns change from white to amber.
+
+What does the evening pendulum do?
+
+The evening pendulum slows the chime mechanism and switches the tower lanterns from white to amber.
+
+Who inspects the clocktower pendulums?
+
+Lysa Calder, the tower keeper, inspects the clocktower pendulums every Friday.
+
+What does Lysa Calder record?
+
+She records gear wear, lantern status, and the exact time the evening pendulum engages. She also notes oil condition, bell disengagement, weather, corrective actions, and whether a maintenance note is needed.
+
+What happens if the mechanism drifts by more than two minutes?
+
+Lysa files a maintenance note with the council.
+
+Who maintains the public archive?
+
+Professor Thalen Mire maintains the public archive.
+
+What did the archive show after Quiet Hours were restored?
+
+The records show that productivity improved because people made fewer mistakes, slept more consistently, and planned work with better focus.
+
+Why did the Merchant Guild object at first?
+
+The Merchant Guild objected because evening trading hours were reduced.
+
+What changed after three months?
+
+The guild reported lower spoilage, fewer accounting errors, and higher customer satisfaction during daytime trading.
+
+Do emergency services stop?
+
+No. Emergency services, medical teams, and transport staff continue to operate as normal.
+
+Can festivals receive exceptions?
+
+Yes. Residents can request exceptions for festivals, repairs, or visiting delegations.
+
+Who must approve an exception?
+
+Both the council clerk and the tower keeper must approve an exception.
+
+Where are approved exceptions posted?
+
+Approved exceptions are posted in the archive window before noon on the day they apply.
+
+Are private conversations banned?
+
+No. Normal household life continues. Quiet Hours focus on avoidable public and commercial disturbance.
+
+Can inns accept late guests?
+
+Yes. Inns may accept late guests quietly and should inform visitors about the amber lanterns and weekday 8:30 p.m. start.
+
+Can a market stall finish a sale after 8:30 p.m.?
+
+No. Sales stop when Quiet Hours begin. Quiet closing tasks may continue.
+
+Can a repair crew work late?
+
+Routine work must wait. Emergency work may proceed. Time-sensitive work may proceed only if an exception is approved or if emergency conditions apply.
+
+Does bad weather automatically extend the market?
+
+No. Ordinary weather does not extend Quiet Hours. Serious hazards may trigger emergency rules or specific exceptions.
+
+40. Sample notices
+
+Sample festival notice:
+
+Approved Quiet Hours exception: Harvest Lantern Walk. Date: Friday, 18 Harvestmonth. Time: 8:30 p.m. to 9:15 p.m. Route: School Green to Market Square by Bridge Road. Expected sound: low singing and hand lantern procession. No drums approved. Cleanup carts will wait until morning. Approved by the council clerk and Lysa Calder, tower keeper. Posted before noon in the archive window.
+
+Sample repair notice:
+
+Approved Quiet Hours exception: Clinic roof weatherproofing. Date: Tuesday, 4 Rainmonth. Time: 8:30 p.m. to 10:00 p.m. Location: east roof of the clinic. Expected sound: ladder placement, hand tools, low crew voices. Cutting and debris hauling are not approved after 8:30 p.m. Approved by the council clerk and Lysa Calder. Posted before noon in the archive window.
+
+Sample delegation notice:
+
+Approved Quiet Hours exception: River Council delegation arrival. Date: Thursday, 11 Frostmonth. Time: 8:30 p.m. to 9:00 p.m. Location: ferry quay and archive steps. Expected sound: quiet reception, no band, no public bell. Transport staff will guide visitors by quay route. Approved by the council clerk and Lysa Calder. Posted before noon in the archive window.
+
+Sample emergency follow-up:
+
+Emergency late work report: Water main break on Mill Lane. Date: Monday, 7 Snowmonth. Work began at 9:05 p.m. after flooding was reported. Public works isolated the line, placed sand barriers, and completed noisy excavation by 10:10 p.m. Final paving delayed until morning. No advance exception was required because the work protected homes and road safety. Report filed with the council clerk the following morning.
+
+41. Practical scenarios
+
+Scenario: A stallholder still has customers at 8:30 p.m.
+
+The stallholder must stop sales. The correct response is to close the transaction queue before the boundary, reserve goods for morning if possible, and begin quiet closing. Customer disappointment is not a reason to continue trading.
+
+Scenario: A child becomes ill at 9:00 p.m.
+
+The household should seek medical help. Quiet Hours do not limit medical care. A doctor, nurse, or transport worker may respond.
+
+Scenario: A musician visiting the inn starts playing outside at 8:45 p.m.
+
+The innkeeper or warden should explain the rule and ask the musician to stop or move indoors at a low volume. If an approved festival exception exists, the notice will state the allowed sound and location.
+
+Scenario: A public lamp fails in an alley.
+
+If the alley remains passable and safe, repair waits until morning. If the failure creates immediate danger, such as exposed wiring or a traffic hazard, urgent repair may proceed.
+
+Scenario: A ferry arrives late with ordinary crates.
+
+Passengers may disembark. Urgent goods may be handled. Ordinary crates should remain secured until morning unless there is a safety or spoilage reason that cannot wait.
+
+Scenario: A school performance runs long.
+
+The school should end public sound at 8:30 p.m. unless an exception was approved and posted. Families may leave quietly afterward.
+
+Scenario: The amber lanterns fail to change.
+
+Quiet Hours still begin at 8:30 p.m. The tower keeper and clerk should provide substitute notice as practical and repair the lantern fault.
+
+Scenario: A festival wants one bell strike at 9:00 p.m.
+
+The request must be approved by both the clerk and Lysa Calder. The public notice must say that one ceremonial bell is approved. Otherwise, bells remain silent except for emergencies.
+
+42. Responsibilities by role
+
+Residents:
+
+- Know the weekday 8:30 p.m. start.
+- Watch for amber tower lanterns.
+- Avoid preventable outdoor noise.
+- Check the archive window for exceptions.
+- Seek emergency and medical help whenever needed.
+- Address minor issues politely when safe.
+
+Merchants:
+
+- Stop sales at 8:30 p.m.
+- Plan closing tasks before Quiet Hours.
+- Train apprentices.
+- Use quiet equipment.
+- Request exceptions early when needed.
+- Follow approval conditions.
+
+Guild officers:
+
+- Educate members.
+- Coordinate seasonal planning.
+- Track repeated issues.
+- Encourage quieter practices.
+- Support fair enforcement.
+
+Wardens:
+
+- Interpret rules accurately.
+- Check notices before intervening.
+- Explain expectations to visitors.
+- Record complaints clearly.
+- Escalate repeated or unsafe violations.
+
+Council clerk:
+
+- Receive exception requests.
+- Check completeness.
+- Coordinate approval with the tower keeper.
+- Prepare public notices.
+- Maintain administrative records.
+- Summarise monthly patterns.
+
+Tower keeper:
+
+- Inspect pendulums every Friday.
+- Record gear wear, lantern status, and engagement time.
+- File maintenance notes when drift exceeds two minutes.
+- Review technical feasibility of exceptions.
+- Maintain reliable public signals.
+
+Professor Thalen Mire:
+
+- Maintain the public archive.
+- Preserve notices, summaries, and historical records.
+- Support public understanding through accessible records.
+- Provide seasonal analyses to the council.
+
+Emergency and medical teams:
+
+- Continue operations during Quiet Hours.
+- Use necessary warnings and movement.
+- Reduce avoidable disturbance after immediate risk passes.
+- File follow-up reports for extended late disruption.
+
+Transport staff:
+
+- Continue necessary transport operations.
+- Handle late passengers safely.
+- Delay non-urgent cargo when practical.
+- Use quiet routes and equipment during Quiet Hours.
+
+43. Key terms
+
+Amber lanterns. The tower lights displayed during Quiet Hours. They show that the evening operating mode is active.
+
+Archive window. The official public posting place for approved exceptions and related notices.
+
+Council clerk. The official who reviews and records the administrative side of exception requests.
+
+Day pendulum. The clocktower pendulum that operates from 6:00 a.m. to 8:30 p.m. and keeps the ordinary town schedule.
+
+Evening pendulum. The clocktower pendulum that engages at 8:30 p.m., slows the chime mechanism, and changes the lanterns from white to amber.
+
+Exception. A specific approval allowing defined activity during Quiet Hours for festivals, repairs, visiting delegations, or other justified needs.
+
+Quiet Hours. The weekday evening period beginning at 8:30 p.m. when public bells are silenced, market stalls close, and non-urgent maintenance waits until morning.
+
+Tower keeper. The person responsible for clocktower operation and technical approval of exceptions. The current tower keeper is Lysa Calder.
+
+44. Closing statement
+
+Quiet Hours endure because they are both firm and humane. The weekday 8:30 p.m. start is firm enough to be useful. The exception process is flexible enough for festivals, repairs, visiting delegations, emergencies, medical care, and transport realities. The clocktower gives a shared signal. The archive gives shared memory. The guilds, wardens, residents, and public staff give the programme its daily life.
+
+Brackenford remains a working riverside town. It still has markets, boats, tools, music, guests, repairs, and urgent needs. Quiet Hours do not deny that life. They shape it so that energy during the day does not consume the rest needed at night. When the evening pendulum engages and the lanterns turn amber, the town is not closing itself against the world. It is keeping a promise to the people who must wake up and build the next day.
