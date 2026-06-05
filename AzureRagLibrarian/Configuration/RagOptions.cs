@@ -40,13 +40,34 @@ public sealed record RagOptions(
 
         string? tenantId = configuration["AzureAI:TenantId"]?.Trim();
 
+        string modelDeploymentName = configuration["AzureAI:ModelDeploymentName"]?.Trim() ?? DefaultModelDeploymentName;
+        if (string.IsNullOrEmpty(modelDeploymentName))
+        {
+            errors.Add("AzureAI:ModelDeploymentName cannot be empty.");
+            modelDeploymentName = DefaultModelDeploymentName;
+        }
+
+        string vectorStoreName = configuration["Rag:VectorStoreName"]?.Trim() ?? DefaultVectorStoreName;
+        if (string.IsNullOrEmpty(vectorStoreName))
+        {
+            errors.Add("Rag:VectorStoreName cannot be empty.");
+            vectorStoreName = DefaultVectorStoreName;
+        }
+
+        string agentName = configuration["Rag:AgentName"]?.Trim() ?? DefaultAgentName;
+        if (string.IsNullOrEmpty(agentName))
+        {
+            errors.Add("Rag:AgentName cannot be empty.");
+            agentName = DefaultAgentName;
+        }
+
         RagOptions options = new(
             endpoint ?? new Uri("https://example.invalid"),
             string.IsNullOrWhiteSpace(tenantId) ? null : tenantId,
-            configuration["AzureAI:ModelDeploymentName"]?.Trim() ?? DefaultModelDeploymentName,
+            modelDeploymentName,
             documentPath,
-            configuration["Rag:VectorStoreName"]?.Trim() ?? DefaultVectorStoreName,
-            configuration["Rag:AgentName"]?.Trim() ?? DefaultAgentName);
+            vectorStoreName,
+            agentName);
 
         return new RagOptionsResult(options, errors);
     }
