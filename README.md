@@ -86,27 +86,6 @@ dotnet test AzureRagLibrarian.sln
 
 The tests cover configuration validation, default naming, document path checks, and chat-loop exit handling. Live Azure calls are intentionally kept out of unit tests.
 
-## Azure resources and cost
-
-Running the app can create or reuse:
-
-- A file in Azure AI Foundry project storage
-- A vector store
-- A project agent version
-- Model inference requests during chat
-
-Clean up unused files, vector stores, and agents in Azure AI Foundry when you are finished. Model and storage usage may incur Azure charges depending on your subscription and deployment.
-
-## Portfolio notes
-
-This repository demonstrates:
-
-- Typed configuration and clear startup validation
-- Separation between CLI flow, Azure client creation, indexing, agent setup, and chat behavior
-- Safe sample data suitable for public GitHub
-- Unit tests around local behavior without requiring cloud credentials
-- GitHub-ready documentation and repository hygiene
-
 ## License
 
 MIT. See [LICENSE](LICENSE).
