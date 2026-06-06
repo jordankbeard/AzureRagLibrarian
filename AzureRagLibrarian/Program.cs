@@ -15,11 +15,11 @@ services
     .Services
     .AddSingleton<IValidateOptions<RagOptions>, RagOptionsValidator>();
 
-services.AddSingleton<AzureProjectClientFactory>();
-services.AddSingleton(sp => sp.GetRequiredService<AzureProjectClientFactory>().Create());
-services.AddSingleton<DocumentIndexService>();
-services.AddSingleton<AgentProvisioningService>();
-services.AddSingleton<RagChatSession>();
+services.AddSingleton<IAzureProjectClientFactory, AzureProjectClientFactory>();
+services.AddSingleton(sp => sp.GetRequiredService<IAzureProjectClientFactory>().Create());
+services.AddSingleton<IDocumentIndexService, DocumentIndexService>();
+services.AddSingleton<IAgentProvisioningService, AgentProvisioningService>();
+services.AddSingleton<IRagChatSession, RagChatSession>();
 
 services.PostConfigure<RagOptions>(opts =>
 {
@@ -39,13 +39,13 @@ Console.WriteLine($"Agent: {options.AgentName}");
 
 try
 {
-    var documentIndexService = provider.GetRequiredService<DocumentIndexService>();
+    var documentIndexService = provider.GetRequiredService<IDocumentIndexService>();
     var vectorStore = await documentIndexService.EnsureVectorStoreAsync(options);
 
-    var agentProvisioningService = provider.GetRequiredService<AgentProvisioningService>();
+    var agentProvisioningService = provider.GetRequiredService<IAgentProvisioningService>();
     await agentProvisioningService.EnsureAgentAsync(options, vectorStore.Id);
 
-    var chatSession = provider.GetRequiredService<RagChatSession>();
+    var chatSession = provider.GetRequiredService<IRagChatSession>();
     await chatSession.RunAsync();
 
     return 0;

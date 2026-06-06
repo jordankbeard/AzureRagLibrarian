@@ -5,7 +5,7 @@ using OpenAI.Responses;
 
 namespace AzureRagLibrarian.Services;
 
-public sealed class RagChatSession(AIProjectClient projectClient, IOptions<RagOptions> options)
+public sealed class RagChatSession(AIProjectClient projectClient, IOptions<RagOptions> options) : IRagChatSession
 {
     public async Task RunAsync()
     {
