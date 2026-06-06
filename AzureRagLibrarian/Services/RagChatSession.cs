@@ -9,7 +9,7 @@ namespace AzureRagLibrarian.Services;
 public sealed class RagChatSession(
     AIProjectClient projectClient,
     IOptions<RagOptions> options,
-    ILogger<RagChatSession> logger)
+    ILogger<RagChatSession> logger) : IRagChatSession
 {
     public async Task RunAsync()
     {

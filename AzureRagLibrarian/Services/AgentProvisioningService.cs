@@ -7,7 +7,7 @@ using System.ClientModel;
 
 namespace AzureRagLibrarian.Services;
 
-public sealed class AgentProvisioningService(AIProjectClient projectClient, ILogger<AgentProvisioningService> logger)
+public sealed class AgentProvisioningService(AIProjectClient projectClient, ILogger<AgentProvisioningService> logger) : IAgentProvisioningService
 {
     private const string SystemPrompt = """
         You are the Quiet Hours Librarian — a knowledgeable guide to the Brackenford Quiet Hours with an ol' English way with words

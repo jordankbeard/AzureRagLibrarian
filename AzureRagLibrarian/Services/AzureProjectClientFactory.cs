@@ -6,7 +6,7 @@ using Microsoft.Extensions.Options;
 
 namespace AzureRagLibrarian.Services;
 
-public sealed class AzureProjectClientFactory(IOptions<RagOptions> options, ILogger<AzureProjectClientFactory> logger)
+public sealed class AzureProjectClientFactory(IOptions<RagOptions> options, ILogger<AzureProjectClientFactory> logger) : IAzureProjectClientFactory
 {
     public AIProjectClient Create()
     {

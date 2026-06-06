@@ -6,7 +6,7 @@ using OpenAI.VectorStores;
 
 namespace AzureRagLibrarian.Services;
 
-public sealed class DocumentIndexService(AIProjectClient projectClient, ILogger<DocumentIndexService> logger)
+public sealed class DocumentIndexService(AIProjectClient projectClient, ILogger<DocumentIndexService> logger) : IDocumentIndexService
 {
     public async Task<VectorStore> EnsureVectorStoreAsync(RagOptions options)
     {
