@@ -1,11 +1,12 @@
 using Azure.AI.Projects;
 using AzureRagLibrarian.Configuration;
+using Microsoft.Extensions.Logging;
 using OpenAI.Files;
 using OpenAI.VectorStores;
 
 namespace AzureRagLibrarian.Services;
 
-public sealed class DocumentIndexService(AIProjectClient projectClient)
+public sealed class DocumentIndexService(AIProjectClient projectClient, ILogger<DocumentIndexService> logger)
 {
     public async Task<VectorStore> EnsureVectorStoreAsync(RagOptions options)
     {
@@ -23,7 +24,7 @@ public sealed class DocumentIndexService(AIProjectClient projectClient)
 
     private async Task<OpenAIFile?> FindUploadedFileAsync(OpenAIFileClient fileClient, string targetFileName)
     {
-        Console.WriteLine("Checking for existing file in Azure AI Foundry storage...");
+        logger.LogDebug("Checking for existing file in Azure AI Foundry storage");
 
         var filesResult = await fileClient.GetFilesAsync();
 
@@ -31,7 +32,7 @@ public sealed class DocumentIndexService(AIProjectClient projectClient)
         {
             if (file.Filename == targetFileName && file.Purpose == FilePurpose.Assistants)
             {
-                Console.WriteLine($"Reusing file:{file.Id}");
+                logger.LogDebug("Reusing file: {FileId}", file.Id);
                 return file;
             }
         }
@@ -41,24 +42,24 @@ public sealed class DocumentIndexService(AIProjectClient projectClient)
 
     private async Task<OpenAIFile> UploadFileAsync(OpenAIFileClient fileClient, string documentPath, string targetFileName)
     {
-        Console.WriteLine("Uploading document...");
+        logger.LogDebug("Uploading document");
 
         await using Stream uploadStream = File.OpenRead(documentPath);
         OpenAIFile uploadedFile = await fileClient.UploadFileAsync(uploadStream, targetFileName, FileUploadPurpose.Assistants);
 
-        Console.WriteLine($"Upload complete: {uploadedFile.Id}");
+        logger.LogDebug("Upload complete: {FileId}", uploadedFile.Id);
         return uploadedFile;
     }
 
     private async Task<VectorStore?> FindVectorStoreAsync(VectorStoreClient vectorClient, string vectorStoreName)
     {
-        Console.WriteLine("Checking for existing vector store...");
+        logger.LogDebug("Checking for existing vector store");
 
         await foreach (VectorStore store in vectorClient.GetVectorStoresAsync())
         {
             if (store.Name == vectorStoreName)
             {
-                Console.WriteLine($"Reusing vector store: {store.Id}");
+                logger.LogDebug("Reusing vector store: {StoreId}", store.Id);
                 return store;
             }
         }
@@ -71,7 +72,7 @@ public sealed class DocumentIndexService(AIProjectClient projectClient)
         string vectorStoreName,
         string fileId)
     {
-        Console.WriteLine("Creating vector store and indexing document...");
+        logger.LogDebug("Creating vector store and indexing document");
 
         var vectorStoreResult = await vectorClient.CreateVectorStoreAsync(new VectorStoreCreationOptions
         {
@@ -79,7 +80,7 @@ public sealed class DocumentIndexService(AIProjectClient projectClient)
             FileIds = { fileId }
         });
 
-        Console.WriteLine($"Vector store ready: {vectorStoreResult.Value.Id}");
+        logger.LogDebug("Vector store ready: {StoreId}", vectorStoreResult.Value.Id);
         return vectorStoreResult.Value;
     }
 }
