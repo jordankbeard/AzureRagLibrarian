@@ -2,11 +2,22 @@ using AzureRagLibrarian.Configuration;
 using AzureRagLibrarian.Services;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using Serilog;
+using Serilog.Events;
 
 IConfiguration configuration = AppConfiguration.Build(args);
 
+Log.Logger = new LoggerConfiguration()
+    .WriteTo.Console(
+        restrictedToMinimumLevel: LogEventLevel.Information,
+        outputTemplate: "{Message:lj}{NewLine}{Exception}")
+    .CreateLogger();
+
 ServiceCollection services = new();
+
+services.AddLogging(b => b.AddSerilog(dispose: true));
 
 services
     .AddOptions<RagOptions>()
@@ -31,11 +42,12 @@ services.PostConfigure<RagOptions>(opts =>
 
 await using ServiceProvider provider = services.BuildServiceProvider();
 
+ILogger<Program> logger = provider.GetRequiredService<ILogger<Program>>();
 var options = provider.GetRequiredService<IOptions<RagOptions>>().Value;
 
-Console.WriteLine("Azure RAG Librarian starting");
-Console.WriteLine($"Document: {options.DocumentPath}");
-Console.WriteLine($"Agent: {options.AgentName}");
+logger.LogInformation("Azure RAG Librarian starting");
+logger.LogInformation("Document: {DocumentPath}", options.DocumentPath);
+logger.LogInformation("Agent: {AgentName}", options.AgentName);
 
 try
 {
@@ -52,6 +64,10 @@ try
 }
 catch (Exception ex)
 {
-    Console.WriteLine($"Unhandled error {ex}");
+    logger.LogError(ex, "Unhandled error");
     return 1;
+}
+finally
+{
+    Log.CloseAndFlush();
 }

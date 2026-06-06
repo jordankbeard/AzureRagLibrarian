@@ -1,18 +1,21 @@
 using Azure.AI.Projects;
 using AzureRagLibrarian.Configuration;
+using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using OpenAI.Responses;
 
 namespace AzureRagLibrarian.Services;
 
-public sealed class RagChatSession(AIProjectClient projectClient, IOptions<RagOptions> options) : IRagChatSession
+public sealed class RagChatSession(
+    AIProjectClient projectClient,
+    IOptions<RagOptions> options,
+    ILogger<RagChatSession> logger) : IRagChatSession
 {
     public async Task RunAsync()
     {
         var responseClient = projectClient.ProjectOpenAIClient.GetProjectResponsesClientForAgent(options.Value.AgentName);
 
-        Console.WriteLine();
-        Console.WriteLine("=== Conversation Started (type 'exit' or press Enter to quit) ===");
+        logger.LogInformation("=== Conversation Started (type 'exit' or press Enter to quit) ===");
 
         string? lastResponseId = null;
 
@@ -25,11 +28,11 @@ public sealed class RagChatSession(AIProjectClient projectClient, IOptions<RagOp
 
             if (IsExitCommand(userInput))
             {
-                Console.WriteLine("Ending session. Goodbye.");
+                logger.LogInformation("Ending session. Goodbye.");
                 break;
             }
 
-            Console.WriteLine("Sending message to agent...");
+            logger.LogDebug("Sending message to agent");
 
             try
             {
@@ -39,26 +42,22 @@ public sealed class RagChatSession(AIProjectClient projectClient, IOptions<RagOp
 
                 if (response.Status == ResponseStatus.Completed)
                 {
-                    Console.WriteLine();
-                    Console.WriteLine($"Agent > {response.GetOutputText()}");
+                    logger.LogInformation("Agent > {ResponseText}", response.GetOutputText());
                     lastResponseId = response.Id;
                 }
                 else if (response.Status == ResponseStatus.Incomplete)
                 {
                     string reason = response.IncompleteStatusDetails?.Reason?.ToString() ?? "Unknown";
-                    Console.WriteLine();
-                    Console.WriteLine($"[Error] Agent execution was incomplete. Reason: {reason}");
+                    logger.LogWarning("[Error] Agent execution was incomplete. Reason: {Reason}", reason);
                 }
                 else
                 {
-                    Console.WriteLine();
-                    Console.WriteLine($"[Error] Execution ended with status: {response.Status}");
+                    logger.LogWarning("[Error] Execution ended with status: {Status}", response.Status);
                 }
             }
             catch (Exception ex)
             {
-                Console.WriteLine();
-                Console.WriteLine($"[Exception] {ex.Message}");
+                logger.LogError(ex, "[Exception] Error communicating with agent");
             }
         }
     }

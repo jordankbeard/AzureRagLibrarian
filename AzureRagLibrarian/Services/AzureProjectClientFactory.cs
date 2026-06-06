@@ -1,15 +1,16 @@
 using Azure.AI.Projects;
 using Azure.Identity;
 using AzureRagLibrarian.Configuration;
+using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
 namespace AzureRagLibrarian.Services;
 
-public sealed class AzureProjectClientFactory(IOptions<RagOptions> options) : IAzureProjectClientFactory
+public sealed class AzureProjectClientFactory(IOptions<RagOptions> options, ILogger<AzureProjectClientFactory> logger) : IAzureProjectClientFactory
 {
     public AIProjectClient Create()
     {
-        Console.WriteLine($"Connecting to Azure AI Foundry project.");
+        logger.LogDebug("Connecting to Azure AI Foundry project");
 
         DefaultAzureCredentialOptions credentialOptions = new();
 

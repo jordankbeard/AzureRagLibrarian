@@ -1,12 +1,13 @@
 using Azure.AI.Projects;
 using Azure.AI.Projects.Agents;
 using AzureRagLibrarian.Configuration;
+using Microsoft.Extensions.Logging;
 using OpenAI.Responses;
 using System.ClientModel;
 
 namespace AzureRagLibrarian.Services;
 
-public sealed class AgentProvisioningService(AIProjectClient projectClient) : IAgentProvisioningService
+public sealed class AgentProvisioningService(AIProjectClient projectClient, ILogger<AgentProvisioningService> logger) : IAgentProvisioningService
 {
     private const string SystemPrompt = """
         You are the Quiet Hours Librarian — a knowledgeable guide to the Brackenford Quiet Hours with an ol' English way with words
@@ -36,7 +37,7 @@ public sealed class AgentProvisioningService(AIProjectClient projectClient) : IA
             return;
         }
 
-        Console.WriteLine("Registering project agent...");
+        logger.LogDebug("Registering project agent");
 
         DeclarativeAgentDefinition agentDefinition = new(model: options.ModelDeploymentName)
         {
@@ -49,18 +50,18 @@ public sealed class AgentProvisioningService(AIProjectClient projectClient) : IA
                 agentName: options.AgentName,
                 options: new(agentDefinition));
 
-        Console.WriteLine($"Agent version registered: {agentVersion.Value.Version}");
+        logger.LogDebug("Agent version registered: {Version}", agentVersion.Value.Version);
     }
 
     private async Task<bool> AgentExistsAsync(string agentName)
     {
-        Console.WriteLine("Checking for existing project agent...");
+        logger.LogDebug("Checking for existing project agent");
 
         await foreach (ProjectsAgentRecord existingAgent in projectClient.AgentAdministrationClient.GetAgentsAsync())
         {
             if (existingAgent.Name == agentName)
             {
-                Console.WriteLine($"Reusing agent: {existingAgent.Id}");
+                logger.LogDebug("Reusing agent: {AgentId}", existingAgent.Id);
                 return true;
             }
         }
